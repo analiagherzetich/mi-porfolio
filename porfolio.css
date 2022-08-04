@@ -1,0 +1,2250 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+
+}
+
+
+
+/*HEADER*/
+
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(247, 247, 83);
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 40px;
+
+
+
+
+}
+
+.navbar ul li {
+
+    font-size: 15px;
+    font-family: monospace;
+    color: black;
+    padding-left: 15px;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.navbar ul li a:hover {
+    background-color: rgb(219, 84, 111);
+
+}
+
+.navbar button {
+    background-color: rgb(219, 84, 111);
+    border-radius: 50px;
+    color: rgb(2, 2, 2);
+    font-size: 1, 33rem;
+    margin-bottom: 27px;
+    width: 100px;
+    padding: 5px;
+    bottom: 6px;
+    border: none;
+
+
+}
+
+.navbar ul li button:hover {
+    background-color: rgb(216, 24, 88);
+    box-shadow: 0px 0px 5px 1px rgb(216, 24, 88);
+
+}
+
+/*FINAL HEADER*/
+
+
+
+
+
+
+
+/*PRESENTACION*/
+
+#presentacion {
+    flex-basis: 100%;
+    height: 800px;
+    background-color: rgb(46, 44, 44);
+
+}
+
+
+.hola {
+    position: absolute;
+    left: 80px;
+    bottom: 175px;
+
+}
+
+#presentacion h2 {
+
+    color: rgb(247, 247, 83);
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Unica One', cursive;
+    margin-bottom: 3px;
+    font-size: 20px
+}
+
+#presentacion h1 {
+    color: rgb(219, 84, 111);
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster Two', cursive;
+
+}
+
+.hola p {
+    color: rgb(219, 84, 111);
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Unica One', cursive;
+    padding-top: 10px;
+
+}
+
+.hola button {
+    background-color: rgb(247, 247, 83);
+    border-radius: 50px;
+    border-color: rgb(247, 247, 83);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(46, 44, 44);
+    font-size: 0, 8rem;
+    margin-top: 20px;
+    width: 150px;
+    padding: 5px;
+
+}
+
+img {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    right: 100px;
+    bottom: 12px;
+
+}
+
+/*FINAL SECCION DE PRESENTACION*/
+
+/*SECCION HABILIDADES*/
+
+
+#habilidades {
+
+
+    background: rgb(149, 145, 145);
+    height: 800px;
+    width: 100%;
+    box-sizing: border-box;
+
+
+}
+
+#habilidades .encabezado {
+
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+
+
+#habilidades .encabezado h1 {
+    color: rgb(219, 84, 111);
+    font-size: 75px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster Two', cursive;
+    text-align: center;
+    margin-top: 130px;
+
+
+}
+
+#habilidades .encabezado p {
+    margin-top: 230px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Unica One', cursive;
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+
+
+
+
+
+}
+
+.programas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(149, 145, 145);
+    text-align: center;
+}
+
+
+.html {
+    width: 190px;
+    height: 190px;
+    background-color: beige;
+    border: 2px beige solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-left: 10px;
+}
+
+.html>.fa-brands {
+    color: rgb(240, 11, 11);
+    font-size: 80px;
+    position: absolute;
+    top: 20px;
+}
+
+.html>p {
+    font: black;
+    font-size: 20px;
+    position: absolute;
+    top: 130px;
+}
+
+
+.html:hover {
+    border-color: rgb(240, 11, 11);
+    color: rgb(240, 11, 11);
+}
+
+
+.react {
+    width: 190px;
+    height: 190px;
+    background-color: beige;
+    border: 2px beige solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-left: 10px;
+
+}
+
+.react>.fa-brands {
+    color: rgb(22, 152, 192);
+    font-size: 86px;
+    position: absolute;
+    top: 20px;
+
+
+}
+
+.react>p {
+    font: black;
+    font-size: 22px;
+    position: absolute;
+    top: 130px;
+
+}
+
+.react:hover {
+    border-color: rgb(22, 152, 192);
+    color: rgb(22, 152, 192);
+}
+
+.sass {
+    width: 190px;
+    height: 190px;
+    background-color: beige;
+    border: 2px beige solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-left: 10px;
+
+
+}
+
+.sass>.fa-brands {
+    color: rgb(211, 87, 128);
+    font-size: 80px;
+    position: absolute;
+    top: 20px;
+}
+
+.sass>p {
+    font: black;
+    font-size: 22px;
+    position: absolute;
+    top: 130px;
+
+}
+
+.sass:hover {
+    border-color: rgb(211, 87, 128);
+    color: rgb(211, 87, 128);
+}
+
+
+.css3 {
+    width: 190px;
+    height: 190px;
+    background-color: beige;
+    border: 2px beige solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-left: 10px;
+
+}
+
+.css3>.fa-brands {
+    color: rgb(22, 152, 192);
+    font-size: 85px;
+    display: flex;
+    margin-top: 25px;
+}
+
+.css3>p {
+    font: black;
+    font-size: 20px;
+    display: flex;
+    padding: 25px;
+}
+
+.css3:hover {
+    border-color: rgb(22, 152, 192);
+    color: rgb(22, 152, 192);
+}
+
+
+.javascript {
+    width: 190px;
+    height: 190px;
+    background-color: beige;
+    border: 2px beige solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+
+}
+
+.javascript>.fa-brands {
+    color: rgb(159, 226, 35);
+    font-size: 80px;
+    margin-top: 30px;
+}
+
+.javascript>p {
+    font: rgb(0, 0, 0);
+    font-size: 22px;
+    padding-top: 22px;
+}
+
+.javascript:hover {
+    border-color: rgb(159, 226, 35);
+    color: rgb(159, 226, 35);
+
+}
+
+.git {
+    width: 190px;
+    height: 190px;
+    background-color: beige;
+    border: 2px beige solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+
+
+}
+
+.git>.fa-brands {
+    color: rgb(22, 152, 192);
+    font-size: 80px;
+
+    margin-top: 30px;
+}
+
+.git>p {
+    font: black;
+    font-size: 22px;
+    position: absolute;
+    margin-top: 132px;
+
+}
+
+.git:hover {
+    border-color: rgb(22, 152, 192);
+    color: rgb(22, 152, 192);
+
+}
+
+
+
+
+/*FINAL SECCION DE HABILIDADES*/
+
+
+/*CITA*/
+
+.cita {
+    display: flex;
+    background-color: whitesmoke;
+    height: 300px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+
+
+.cita>h1 {
+    display: flex;
+    position: absolute;
+    top: 8px;
+    font-size: 152px;
+    font-family: 'Secular One', sans-serif;
+    color: rgb(224, 88, 115);
+
+
+}
+
+.cita>p {
+    text-align: center;
+    position: absolute;
+    top: 130px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Unica One', cursive;
+}
+
+.cita>h2 {
+    position: absolute;
+    bottom: 30px;
+    color: rgb(219, 84, 111);
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Unica One', cursive;
+}
+
+/*FINAL CITA*/
+
+
+/*SECCION DE PROYECTOS*/
+
+#proyectos {
+
+    background: rgb(149, 145, 145);
+    height: 900px;
+    width: 100%;
+    position: relative;
+
+
+}
+
+#proyectos .encabezado {
+    height: 320px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+#proyectos .encabezado h1 {
+    color: rgb(247, 247, 83);
+    font-size: 75px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster Two', cursive;
+    position: absolute;
+    top: 125px;
+    text-align: center;
+
+}
+
+#proyectos .encabezado p {
+    display: flex;
+    text-align: center;
+    position: absolute;
+    top: 230px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Unica One', cursive;
+
+}
+
+
+.tarjetas-proyectos {
+    height: 600px;
+    width: 100%;
+    background: rgb(149, 145, 145);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.tarjeta1 {
+    height: 240px;
+    width: 240px;
+    background-color: rgb(149, 145, 145);
+    position: relative;
+    display: flex;
+    border: 2px solid rgb(247, 247, 83);
+    justify-content: center;
+
+}
+
+
+
+.tarjeta1 h2 {
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster Two', cursive;
+    color: rgb(48, 47, 47);
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    right: 90px;
+    justify-content: center;
+
+
+}
+
+
+.tarjeta1 img {
+    width: 205px;
+    height: 140px;
+    display: flex;
+    position: absolute;
+    left: 16px;
+    top: 20px;
+    text-align: center;
+}
+
+.tarjeta1:hover {
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+
+
+
+.tarjeta2 {
+    height: 240px;
+    width: 240px;
+    background-color: rgb(149, 145, 145);
+    position: relative;
+    display: flex;
+    border: 2px solid rgb(247, 247, 83);
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+
+.tarjeta2 h2 {
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster Two', cursive;
+    color: rgb(48, 47, 47);
+    display: flex;
+    position: absolute;
+    bottom: 22px;
+    justify-content: center;
+
+}
+
+
+.tarjeta2 img {
+    width: 140px;
+    height: 140px;
+    display: flex;
+    position: absolute;
+    left: 40px;
+    bottom: 70px;
+
+
+}
+
+.tarjeta2:hover {
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+
+
+
+.tarjeta3 {
+    height: 240px;
+    width: 240px;
+    background-color: rgb(149, 145, 145);
+    position: relative;
+    display: flex;
+    border: 2px solid rgb(247, 247, 83);
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+
+.tarjeta3 h2 {
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster Two', cursive;
+    color: rgb(48, 47, 47);
+    display: flex;
+    position: absolute;
+    bottom: 25px;
+
+
+}
+
+.tarjeta3:hover {
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+
+.tarjeta3 img {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    position: absolute;
+    bottom: 53px;
+    left: 45px;
+
+
+
+}
+
+.tarjeta4 {
+    height: 240px;
+    width: 240px;
+    background-color: rgb(149, 145, 145);
+    position: relative;
+    display: flex;
+    border: 2px solid rgb(247, 247, 83);
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+
+
+.tarjeta4 h2 {
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster Two', cursive;
+    color: rgb(48, 47, 47);
+    display: flex;
+    position: absolute;
+    bottom: 25px;
+
+
+
+}
+
+
+.tarjeta4 img {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    position: absolute;
+    bottom: 60px;
+    left: 33px;
+
+}
+
+.tarjeta4:hover {
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+
+.tarjeta5 {
+    height: 240px;
+    width: 240px;
+    background-color: rgb(149, 145, 145);
+    position: relative;
+    display: flex;
+    border: 2px solid rgb(247, 247, 83);
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.tarjeta5 h2 {
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster Two', cursive;
+    color: rgb(48, 47, 47);
+    display: flex;
+    position: absolute;
+    bottom: 25px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.tarjeta5 img {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 45px;
+
+}
+
+.tarjeta5:hover {
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+
+
+.tarjeta6 {
+    height: 240px;
+    width: 240px;
+    background-color: rgb(149, 145, 145);
+    position: relative;
+    display: flex;
+    border: 2px solid rgb(247, 247, 83);
+
+    bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+.tarjeta6 h2 {
+    font-size: 22px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster Two', cursive;
+    color: rgb(48, 47, 47);
+    display: flex;
+    position: absolute;
+    bottom: 25px;
+
+
+}
+
+.tarjeta6 figure img {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 48px;
+
+}
+
+.tarjeta6:hover {
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+.tarjeta7 {
+    height: 240px;
+    width: 240px;
+    background-color: rgb(149, 145, 145);
+    position: relative;
+    display: flex;
+    border: 2px solid rgb(247, 247, 83);
+    bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.tarjeta7 h2 {
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster Two', cursive;
+    color: rgb(48, 47, 47);
+    display: flex;
+    position: absolute;
+    bottom: 25px;
+
+
+}
+
+.tarjeta7 img {
+    width: 170px;
+    height: 170px;
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+
+}
+
+.tarjeta7:hover {
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+
+.container-padre {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+
+}
+
+
+.datos {
+    width: 400px;
+    height: 800px;
+    border: none;
+    position: relative;
+    top: 95px;
+
+}
+
+.datos h1 {
+    position: relative;
+    left: 16px;
+
+}
+
+
+.caja-contactame {
+    position: relative;
+    top: 30px;
+    right: 12px;
+
+}
+
+
+
+
+.caja-contactame p {
+
+    display: flex;
+    text-align: left;
+    position: relative;
+    margin-left: 20px;
+    top: 100px;
+    font-size: 15px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Unica One', cursive;
+
+
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 80px;
+
+}
+
+.iconos {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.iconos i {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(219, 84, 111);
+    position: relative;
+}
+
+.iconos button {
+    position: relative;
+    left: 20px;
+    margin-top: 20px;
+
+}
+
+
+.redes .iconos button {
+    height: 45px;
+    width: 45px;
+    border: none;
+    background-color: transparent;
+}
+
+
+.twitter .nombre :hover {
+    color: rgb(219, 84, 111);
+}
+
+.twitter .nombre {
+    display: flex;
+    position: relative;
+    bottom: 86px;
+    left: 50px
+}
+
+.mail .nombre :hover {
+    color: rgb(219, 84, 111);
+}
+
+
+.mail .nombre {
+    display: flex;
+    position: relative;
+    bottom: 86px;
+    left: 50px
+}
+
+
+.linkedin .nombre {
+
+    position: relative;
+    bottom: 86px;
+    left: 52px
+}
+
+
+
+.github .nombre :hover {
+    color: rgb(219, 84, 111);
+}
+
+
+.github .nombre {
+
+    position: relative;
+    bottom: 86px;
+    left: 52px
+}
+
+.linkedin .nombre :hover {
+    color: rgb(219, 84, 111);
+}
+
+
+.linkedin .nombre {
+
+    position: relative;
+    bottom: 86px;
+    left: 52px
+}
+
+
+
+.iconos button:hover {
+    border-radius: 50%;
+    border-color: rgb(247, 247, 83);
+    background-color: rgb(247, 247, 83);
+}
+
+
+.iconos i:hover {
+    color: white;
+
+}
+
+.caja-formulario {
+    flex-direction: column;
+    width: 500px;
+    height: 700px;
+    border: none;
+    position: relative;
+    top: 75px;
+    padding: 10px;
+    left: 10px;
+
+
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster Two', cursive;
+
+}
+
+
+.alineados {
+    display: flex;
+    position: relative;
+    align-items: center;
+    top: 25px;
+
+}
+
+input {
+    background-color: rgb(248, 200, 210);
+    padding: 8px;
+    width: 200px;
+    height: 48px;
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+    outline: whitesmoke;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+
+#nombre {
+    position: relative;
+    bottom: 14px;
+}
+
+#nombre input {
+    position: relative;
+    top: 15px;
+
+}
+
+input:hover {
+    border-color: rgb(219, 84, 111);
+    box-shadow: 0px 0px 5px 1px rgb(219, 84, 111)
+}
+
+
+input p {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+
+}
+
+#apellido {
+    position: relative;
+    bottom: 18px;
+    left: 25px;
+}
+
+#apellido input {
+    position: relative;
+    top: 16px;
+}
+
+
+
+#email input {
+    width: 434px;
+    height: 48px;
+    position: relative;
+    top: 15px;
+
+}
+
+#enviar input {
+    background-color: rgb(219, 84, 111);
+    width: 120px;
+    height: 40;
+    margin-top: 18px;
+}
+
+
+#mensaje {
+    position: relative;
+    bottom: 12px;
+    padding: 10px;
+    right: 6px;
+}
+
+textarea {
+    border: 1px rgb(219, 84, 111) solid;
+    position: relative;
+    top: 20px;
+
+}
+
+textarea:hover {
+    border: 1px rgb(219, 84, 111) solid;
+    box-shadow: 0px 0px 5px 1px rgb(219, 84, 111)
+}
+
+textarea h1 {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-size: 50px;
+}
+
+.datos {
+    position: relative;
+    right: 30px;
+}
+
+.datos h1 {
+    font-size: 48px;
+    position: relative;
+    top: 10px;
+}
+
+.datos p {
+    font-size: 15px;
+    position: relative;
+    top: 55px;
+}
+
+
+/*FOOTER*/
+
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(219, 84, 111);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.listado {
+    position: relative;
+
+}
+
+.listado ul {
+    display: flex;
+    list-style: none;
+    position: relative;
+    bottom: 30px;
+    left: 100px;
+
+}
+
+.listado ul li {
+
+    font-size: 17px;
+    font-family: monospace;
+    color: white;
+    margin: 10px;
+
+
+}
+
+.listado ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.listado ul li a:hover {
+    background-color: rgb(219, 84, 111);
+    border: 1px solid rgb(219, 84, 111);
+    box-shadow: 0px 0px 5px 1px white;
+}
+
+.listado ul li button {
+    background-color: rgb(219, 84, 111);
+    position: absolute;
+    bottom: 4px;
+}
+
+
+.iconos-pie {
+
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 210px;
+    top: 20px;
+
+}
+
+.iconos-pie i {
+
+
+    font-size: 25px;
+
+    color: rgb(219, 84, 111);
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+
+}
+
+.redes-pie .iconos-pie button {
+    height: 40px;
+    width: 40px;
+    border: 1px rgb(219, 84, 111);
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 15px;
+
+}
+
+.iconos-pie button:hover {
+    border-radius: 50%;
+    background-color: rgb(219, 84, 111);
+    border: 1px white solid;
+}
+
+
+.iconos-pie i:hover {
+    color: white;
+}
+
+
+
+
+/*RESPONSIVE HEADER*/
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+@media(max-width: 768px) {
+    header {
+        display: flex;
+        height: 98px;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .navbar {
+        width: 100%;
+
+        align-items: center;
+    }
+
+    .navbar ul {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .navbar ul li {
+        font-size: 12px;
+    }
+
+    .navbar button {
+        display: none;
+    }
+}
+/**FINAL RESPONSIVE HEADER**/
+
+/*RESPONSIVE SECCION PRESENTACION*/
+
+@media(max-width: 768px) {
+
+    #presentacion {
+        flex-direction: column;
+        flex-basis: 100%;
+        height: 500px;
+        background-color: rgb(46, 44, 44);
+
+    }
+
+    .hola {
+        position: absolute;
+        right: 10px;
+        bottom: 175px;
+    }
+
+    #presentacion h2 {
+
+        margin-bottom: 3px;
+        font-size: 20px;
+    }
+
+    #presentacion h1 {
+
+        font-size: 40px;
+    }
+
+    .hola p {
+
+        font-size: 15px;
+        padding-top: 10px;
+
+    }
+
+    .hola button {
+        background-color: rgb(247, 247, 83);
+        border-radius: 50px;
+        border-color: rgb(247, 247, 83);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(46, 44, 44);
+        font-size: 0, 8rem;
+        margin-top: 20px;
+        width: 120px;
+        padding: 3px;
+
+    }
+
+    img {
+        width: 360px;
+        height: 460px;
+        right: 50px;
+
+    }
+
+}
+
+/**FINAL RESPONSIVE DE SECCION PRESENTACION**/
+
+/*RESPONSIVE SECCION HABILIDADES*/
+
+@media(max-width: 768px) {
+
+    #habilidades {
+
+
+        background: rgb(149, 145, 145);
+        max-height: 500px;
+        width: 100%;
+        position: relative;
+        justify-content: center;
+
+    }
+
+    #habilidades .encabezado {
+
+        height: 200px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #habilidades .encabezado h1 {
+        color: rgb(219, 84, 111);
+        font-size: 60px;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Lobster Two', cursive;
+        text-align: center;
+        position: absolute;
+        margin-top: 0px;
+
+    }
+
+
+    #habilidades .encabezado p {
+        margin-top: 170px;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Lobster Two', cursive;
+        font-family: 'Unica One', cursive;
+        display: flex;
+        text-align: center;
+        font-size: 12px;
+
+
+    }
+
+    .programas {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        height: 250px;
+        width: 100%;
+        background-color: rgb(149, 145, 145);
+        justify-content: center;
+        margin-top: 90px;
+
+
+    }
+
+    .html {
+        width: 148px;
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .html>.fa-brands {
+
+        font-size: 62px;
+        top: 18px;
+    }
+
+    .html>p {
+        font-size: 18px;
+        top: 100px;
+    }
+
+
+
+    .react {
+        width: 148px;
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .react>.fa-brands {
+
+        font-size: 60px;
+        top: 20px;
+
+
+    }
+
+    .react>p {
+
+        font-size: 18px;
+        top: 100px;
+
+    }
+
+
+    .sass {
+        width: 148px;
+        height: 130px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .sass>.fa-brands {
+        font-size: 55px;
+        top: 20px;
+    }
+
+    .sass>p {
+        font-size: 18px;
+        top: 100px;
+
+    }
+
+    .css3 {
+        width: 150px;
+        height: 130px;
+        display: flex;
+        align-items: center;
+        position: relative;
+
+    }
+
+    .css3>.fa-brands {
+        font-size: 60px;
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .css3>p {
+        font-size: 18px;
+        display: flex;
+        padding: 20px;
+    }
+
+
+    .javascript {
+        width: 150px;
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .javascript>.fa-brands {
+        font-size: 60px;
+        margin-top: 20px;
+    }
+
+    .javascript>p {
+        font-size: 18px;
+        padding-top: 18px;
+    }
+
+    .git {
+        position: relative;
+        width: 150px;
+        height: 130px;
+
+
+
+
+    }
+
+    .git>.fa-brands {
+        color: rgb(22, 152, 192);
+        font-size: 80px;
+        margin-top: 10px;
+        position: absolute
+    }
+
+    .git>p {
+        font: black;
+        font-size: 18px;
+        position: absolute;
+        flex-direction: column;
+        margin-top: 100px;
+
+    }
+
+}
+
+/**FINAL RESPONSIVE SECCION DE HABILIDADES**/
+
+/*RESPONSIVE CITA*/
+
+@media(max-width: 768px) {
+    .cita {
+        display: flex;
+        background-color: whitesmoke;
+        height: 250px;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+
+    }
+
+    .cita>h1 {
+        display: flex;
+        position: absolute;
+        top: 0px;
+        font-size: 150px;
+        font-family: 'Secular One', sans-serif;
+        color: rgb(224, 88, 115);
+
+
+    }
+
+    .cita>p {
+        text-align: center;
+        position: absolute;
+        margin-top: 0px;
+        font-size: 12px;
+
+    }
+
+    .cita>h2 {
+        position: absolute;
+        margin-bottom: 10px;
+        color: rgb(219, 84, 111);
+        font-size: 20px;
+
+    }
+}
+
+/**FINAL RESPONSIVE CITA**/
+
+/*RESPONSIVE SECCION PROYECTOS*/
+@media(max-width: 768px) {
+
+
+    #proyectos {
+
+        background: rgb(149, 145, 145);
+        height: 900px;
+        width: 100%;
+        position: relative;
+
+
+    }
+
+    #proyectos .encabezado {
+        height: 320px;
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+
+    #proyectos .encabezado h1 {
+        color: rgb(247, 247, 83);
+        font-size: 75px;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Lobster Two', cursive;
+        position: absolute;
+        top: 125px;
+        text-align: center;
+
+    }
+
+    #proyectos .encabezado p {
+        display: flex;
+        text-align: center;
+        position: absolute;
+        top: 230px;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Lobster Two', cursive;
+        font-family: 'Unica One', cursive;
+
+    }
+
+
+    .tarjetas-proyectos {
+        height: 600px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+    }
+
+    .tarjeta1 {
+        height: 180px;
+        width: 180px;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+
+
+    .tarjeta1 h2 {
+        font-size: 20px;
+        display: flex;
+        position: absolute;
+
+
+
+    }
+
+
+    .tarjeta1 img {
+        width: 155px;
+        height: 100px;
+        display: flex;
+        position: absolute;
+        left: 10px;
+        top: 20px;
+
+
+    }
+
+    .tarjeta1:hover {
+        background-color: whitesmoke;
+        border-color: whitesmoke;
+    }
+
+
+
+    .tarjeta2 {
+        height: 180px;
+        width: 180px;
+        background-color: rgb(149, 145, 145);
+        position: relative;
+        display: flex;
+        border: 2px solid rgb(247, 247, 83);
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+
+    .tarjeta2 h2 {
+        font-size: 20px;
+        display: flex;
+        bottom: 22px;
+
+
+
+    }
+
+
+    .tarjeta2 img {
+        height: 110px;
+        width: 110px;
+        display: flex;
+        position: absolute;
+        bottom: 60px;
+        text-align: center;
+        left: 33px;
+
+
+    }
+
+    .tarjeta2:hover {
+        background-color: whitesmoke;
+        border-color: whitesmoke;
+    }
+
+
+
+
+    .tarjeta3 {
+        height: 180px;
+        width: 180px;
+        background-color: rgb(149, 145, 145);
+        flex-direction: column;
+        position: relative;
+        display: flex;
+        border: 2px solid rgb(247, 247, 83);
+        align-items: center;
+
+    }
+
+
+
+    .tarjeta3 h2 {
+        font-size: 20px;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Lobster Two', cursive;
+        color: rgb(48, 47, 47);
+        display: flex;
+        position: absolute;
+        bottom: 25px;
+
+
+    }
+
+    .tarjeta3:hover {
+        background-color: whitesmoke;
+        border-color: whitesmoke;
+    }
+
+
+    .tarjeta3 img {
+        width: 122px;
+        height: 122px;
+        display: flex;
+        position: absolute;
+        bottom: 53px;
+        left: 33px;
+
+    }
+
+    .tarjeta4 {
+        height: 180px;
+        width: 180px;
+        background-color: rgb(149, 145, 145);
+        position: relative;
+        display: flex;
+        border: 2px solid rgb(247, 247, 83);
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+
+    .tarjeta4 h2 {
+        font-size: 20px;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Lobster Two', cursive;
+        color: rgb(48, 47, 47);
+        display: flex;
+        position: absolute;
+        bottom: 25px;
+
+
+
+    }
+
+
+    .tarjeta4 img {
+        height: 130px;
+        width: 130px;
+        display: flex;
+        position: absolute;
+        bottom: 45px;
+        left: 33px;
+
+    }
+
+    .tarjeta4:hover {
+        background-color: whitesmoke;
+        border-color: whitesmoke;
+    }
+
+
+    .tarjeta5 {
+        height: 180px;
+        width: 180px;
+        background-color: rgb(149, 145, 145);
+        position: relative;
+        display: flex;
+        border: 2px solid rgb(247, 247, 83);
+        flex-direction: column;
+        align-items: center;
+        bottom: 30px;
+
+
+
+    }
+
+
+    .tarjeta5 h2 {
+        font-size: 20px;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Lobster Two', cursive;
+        color: rgb(48, 47, 47);
+        display: flex;
+        position: absolute;
+        bottom: 25px;
+
+
+
+    }
+
+    .tarjeta5 img {
+        width: 130px;
+        height: 130px;
+        display: flex;
+        position: absolute;
+        top: 10px;
+        left: 45px;
+
+    }
+
+    .tarjeta5:hover {
+        background-color: whitesmoke;
+        border-color: whitesmoke;
+    }
+
+
+
+    .tarjeta6 {
+        height: 180px;
+        width: 180px;
+        background-color: rgb(149, 145, 145);
+        position: relative;
+        display: flex;
+        border: 2px solid rgb(247, 247, 83);
+        flex-direction: column;
+
+
+    }
+
+
+
+    .tarjeta6 h2 {
+        font-size: 20px;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Lobster Two', cursive;
+        color: rgb(48, 47, 47);
+        display: flex;
+        position: absolute;
+        bottom: 25px;
+        justify-content: center;
+
+    }
+
+    .tarjeta6 figure img {
+        width: 120px;
+        height: 120px;
+        display: flex;
+        position: absolute;
+        top: 5px;
+        left: 28px;
+
+
+
+    }
+
+    .tarjeta6:hover {
+        background-color: whitesmoke;
+        border-color: whitesmoke;
+    }
+
+    .tarjeta7 {
+        height: 180px;
+        width: 180px;
+        background-color: rgb(149, 145, 145);
+        position: relative;
+        display: flex;
+        border: 2px solid rgb(247, 247, 83);
+        align-items: center;
+        bottom: 30px;
+        flex-direction: column;
+
+    }
+
+    .tarjeta7 h2 {
+        font-size: 20px;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Lobster Two', cursive;
+        color: rgb(48, 47, 47);
+        display: flex;
+        position: absolute;
+        bottom: 25px;
+
+
+    }
+
+    .tarjeta7 img {
+        height: 132px;
+        width: 132px;
+        display: flex;
+        position: absolute;
+        top: 10px;
+        right: 5px;
+
+
+    }
+
+    .tarjeta7:hover {
+        background-color: whitesmoke;
+        border-color: whitesmoke;
+    }
+}
+/**FINAL RESPONSIVE DE PROYECTOS**/
+
+/*RESPONSIVE SECCION DE CONTACTO*/
+@media(max-width: 768px) {
+
+    .container-padre {
+        display: flex;
+        width: 100%;
+        height: 600px;
+        display: flex;
+        background-color: whitesmoke;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        position: relative;
+
+    }
+
+
+
+    .caja-contactame {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        top: 30px;
+        left: 0;
+
+    }
+
+
+    .caja-contactame p {
+
+        display: flex;
+        text-align: left;
+        margin-left: 0;
+        font-size: 12px;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Lobster Two', cursive;
+        font-family: 'Unica One', cursive;
+
+
+    }
+
+    .datos {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 600px;
+        border: none;
+
+        top: 0px;
+
+    }
+
+    .datos h1 {
+        font-size: 40px;
+        left: 13px;
+        margin-top: 15px;
+
+    }
+
+
+    .redes {
+        display: flex;
+        flex-direction: column;
+
+        top: 80px;
+
+    }
+
+    .iconos {
+        height: 60px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .iconos i {
+        font-size: 30px;
+        text-align: center;
+        color: rgb(219, 84, 111);
+        position: relative;
+    }
+
+    .iconos button {
+        position: relative;
+        left: 20px;
+        margin-top: 20px;
+
+    }
+
+
+    .redes .iconos button {
+        height: 45px;
+        width: 45px;
+        border: none;
+        background-color: transparent;
+    }
+
+
+    .twitter .nombre :hover {
+        color: rgb(219, 84, 111);
+    }
+
+    .twitter .nombre {
+        display: flex;
+        position: relative;
+        bottom: 86px;
+        left: 70px
+    }
+
+    .mail .nombre :hover {
+        color: rgb(219, 84, 111);
+    }
+
+
+    .mail .nombre {
+        display: flex;
+        position: relative;
+        bottom: 86px;
+        left: 72px
+    }
+
+
+    .linkedin .nombre {
+
+        position: relative;
+        bottom: 86px;
+        left: 8px
+    }
+
+
+
+    .github .nombre :hover {
+        color: rgb(219, 84, 111);
+    }
+
+
+    .github .nombre {
+
+        position: relative;
+        bottom: 86px;
+        left: 70px
+    }
+
+    .linkedin .nombre :hover {
+        color: rgb(219, 84, 111);
+    }
+
+
+    .linkedin .nombre {
+
+        position: relative;
+        bottom: 86px;
+        left: 70px
+    }
+
+
+
+    .iconos button:hover {
+        border-radius: 50%;
+        border-color: rgb(247, 247, 83);
+        background-color: rgb(247, 247, 83);
+    }
+
+
+    .iconos i:hover {
+        color: white;
+
+    }
+
+    .caja-formulario {
+        flex-direction: column;
+        width: 300px;
+        height: 500px;
+        border: none;
+        top: 0px;
+        padding: 10px;
+        left: 0;
+
+
+
+
+    }
+
+    h1 {
+        font-size: 40px;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Lobster Two', cursive;
+
+    }
+
+
+    .alineados {
+        display: flex;
+        position: relative;
+        align-items: center;
+        top: 25px;
+
+    }
+
+    input {
+        background-color: rgb(248, 200, 210);
+        padding: 8px;
+        width: 135px;
+        height: 30px;
+        border: 2px solid whitesmoke;
+        border-radius: 25px;
+        outline: whitesmoke;
+        font-size: 10px;
+        margin-bottom: 50px;
+    }
+
+
+    #nombre {
+        position: relative;
+        bottom: 14px;
+    }
+
+    #nombre input {
+        position: relative;
+        top: 15px;
+
+    }
+
+    input:hover {
+        border-color: rgb(219, 84, 111);
+        box-shadow: 0px 0px 5px 1px rgb(219, 84, 111)
+    }
+
+
+    input p {
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 15px;
+
+    }
+
+    #apellido {
+        position: relative;
+        bottom: 16px;
+        left: 25px;
+    }
+
+    #apellido input {
+        position: relative;
+        top: 16px;
+    }
+
+
+
+    #email input {
+        width: 300px;
+        height: 30px;
+        position: relative;
+        top: 15px;
+
+    }
+
+    #enviar input {
+        background-color: rgb(219, 84, 111);
+        width: 120px;
+        height: 40;
+        margin-top: 18px;
+    }
+
+
+    #mensaje {
+        position: relative;
+        bottom: 12px;
+        padding: 10px;
+        right: 6px;
+    }
+
+    textarea {
+        border: 1px rgb(219, 84, 111) solid;
+        position: relative;
+        top: 20px;
+        width: 300px;
+
+    }
+
+    textarea:hover {
+        border: 1px rgb(219, 84, 111) solid;
+        box-shadow: 0px 0px 5px 1px rgb(219, 84, 111)
+    }
+
+    textarea h1 {
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Lobster Two', cursive;
+        font-size: 50px;
+    }
+
+
+}
+
+/**FINAL RESPONSIVE SECCION CANTACTO**/
